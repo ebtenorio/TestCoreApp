@@ -6,12 +6,11 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Line 1.");
-            Console.WriteLine("Line 2.");
-            Console.WriteLine("Line 3.");
-            Console.WriteLine("Line 4.");
-            Console.WriteLine("Line 5.");
-            Console.WriteLine("Line 6.");
+            for (int i = 1; i <= 10; i++)
+            {
+                if (i % 2 == 0) { Console.WriteLine(i.ToString() + " is an even number."); }
+                else { Console.WriteLine(i.ToString() + " is an odd number."); }
+            }
             
         }
     }
