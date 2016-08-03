@@ -1,8 +1,4 @@
 using System;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 
 namespace ConsoleApplication
 {
