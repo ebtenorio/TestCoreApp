@@ -5,7 +5,6 @@
     "emitEntryPoint": true
   },
   "dependencies": {
-    "System.Data.SqlClient": "4.1.0"
   },
   "frameworks": {
     "netcoreapp1.0": {
